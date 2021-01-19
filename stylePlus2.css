@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "fontfont";
+    src: url("../fonts/notoSansKR/NotoSans-Bold.woff") format("woff");
+    font-style: normal;
+    unicode-range: U+AC00-D7AF
+  }
+  
+  @font-face {
+    font-family: "fontfont";
+    src: url("../fonts/openSans/OpenSans-SemiBold.woff") format("woff");
+    unicode-range: U+0041-005A(대문자), U+0061-007A(소문자) U+0030-0039(숫자);
+    font-style: normal;
+  }
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+h1{
+    font-family: 'Abril Fatface', cursive;
+}
+
+.goCenter {
+    margin:0 auto;
+}
+
+#backgroundBlue{
+    background-color: #0A174E;
+}
+
+h5{
+    margin-left: 5px;
+    margin-right: 5px
+}
